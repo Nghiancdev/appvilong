@@ -1,0 +1,200 @@
+{
+  "project_info": {
+    "project_number": "669346986878",
+    "project_id": "doapp-for-store-7",
+    "storage_bucket": "doapp-for-store-7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669346986878:android:6ae36b3b2e0e51cb97912f",
+        "android_client_info": {
+          "package_name": "com.doapp.store.amhapy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRUwxx18h2a2va0y3qD3b9OvpN_bjcgOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669346986878:android:cd0643582376598e97912f",
+        "android_client_info": {
+          "package_name": "com.doapp.store.biohope"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRUwxx18h2a2va0y3qD3b9OvpN_bjcgOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669346986878:android:1fa66b5471dbdfec97912f",
+        "android_client_info": {
+          "package_name": "com.doapp.store.freeman"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRUwxx18h2a2va0y3qD3b9OvpN_bjcgOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669346986878:android:03ba289451327d3d97912f",
+        "android_client_info": {
+          "package_name": "com.doapp.store.hapufood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRUwxx18h2a2va0y3qD3b9OvpN_bjcgOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669346986878:android:e9e722974a2c622297912f",
+        "android_client_info": {
+          "package_name": "com.doapp.store.hapufood2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRUwxx18h2a2va0y3qD3b9OvpN_bjcgOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669346986878:android:309e8c95fa84a28597912f",
+        "android_client_info": {
+          "package_name": "com.doapp.store.hqgano"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRUwxx18h2a2va0y3qD3b9OvpN_bjcgOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669346986878:android:729b787fa89c3a8c97912f",
+        "android_client_info": {
+          "package_name": "com.doapp.store.huongsachtannguyen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRUwxx18h2a2va0y3qD3b9OvpN_bjcgOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669346986878:android:399ce4aea477bd3497912f",
+        "android_client_info": {
+          "package_name": "com.doapp.store.mpcare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRUwxx18h2a2va0y3qD3b9OvpN_bjcgOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669346986878:android:f534dc0530d7067997912f",
+        "android_client_info": {
+          "package_name": "com.doapp.store.suckhoevang"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRUwxx18h2a2va0y3qD3b9OvpN_bjcgOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669346986878:android:94f5341e5bd10f7597912f",
+        "android_client_info": {
+          "package_name": "com.doapp.store.vilong"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRUwxx18h2a2va0y3qD3b9OvpN_bjcgOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

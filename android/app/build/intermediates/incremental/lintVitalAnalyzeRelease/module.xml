@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/nghia/Documents/code/com.doapp.store.vilong/android/app"
+    name=":app"
+    type="APP"
+    maven="com.doapp.store.vilong:app:"
+    gradle="7.4.2"
+    buildFolder="build"
+    bootClassPath="/Users/nghia/Library/Android/sdk/platforms/android-34/android.jar:/Users/nghia/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

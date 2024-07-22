@@ -1,0 +1,10 @@
+{
+  "name": "iki_customer",
+  "displayName": "Vĩ Long",
+  "android": {
+    "package": "com.ikitech.customer.app.react"
+  },
+  "ios": {
+    "bundleIdentifier": "com.ikitech.customer.app.react"
+  }
+}

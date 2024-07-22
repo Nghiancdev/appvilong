@@ -1,0 +1,21 @@
+npx react-native run-ios --device "iPhone của Hiếu" --configuration Release
+
+code-push release-react hdt_store ios -d  Production
+code-push release-react vilongios ios -d  Production -t '1.0.3'   
+code-push release-react hdt_store_android android -d Production -t '1.0'
+
+./gradlew bundleRelease
+
+./gradlew assembleRelease
+
+export ANDROID_HOME=/Users/hieudz/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+npx react-native run-android --deviceId=73fc0600
+
+// dùng bên ngoài
+export PATH=$PATH:/Users/hieudz/Library/Android/sdk/platform-tools
+source ~/.zshrc
+adb devices
+npm run ios -- --simulator="iPhone 15 Pro Max"
+

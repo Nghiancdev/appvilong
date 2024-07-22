@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xxhdpi_node_modules_flyerhq_reactnativechatui_lib_assets_iconsend.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xxhdpi/node_modules_flyerhq_reactnativechatui_lib_assets_iconsend.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xxhdpi_node_modules_flyerhq_reactnativechatui_lib_assets_iconseen.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xxhdpi/node_modules_flyerhq_reactnativechatui_lib_assets_iconseen.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_profile_xu.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_profile_xu.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_reactnativepaper_src_assets_backchevron.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstarselected.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstarselected.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_profile_voucher_wallet.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_profile_voucher_wallet.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_flyerhq_reactnativechatui_lib_assets_iconsend.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_flyerhq_reactnativechatui_lib_assets_iconsend.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_flyerhq_reactnativechatui_lib_assets_iconseen.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_flyerhq_reactnativechatui_lib_assets_iconseen.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xhdpi_node_modules_flyerhq_reactnativechatui_lib_assets_iconerror.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xhdpi/node_modules_flyerhq_reactnativechatui_lib_assets_iconerror.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xhdpi_node_modules_flyerhq_reactnativechatui_lib_assets_iconseen.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xhdpi/node_modules_flyerhq_reactnativechatui_lib_assets_iconseen.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_profile_contact.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_profile_contact.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_profile_log_out.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_profile_log_out.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xxhdpi_node_modules_flyerhq_reactnativechatui_lib_assets_iconattachment.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xxhdpi/node_modules_flyerhq_reactnativechatui_lib_assets_iconattachment.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_reactnativeelementdropdown_src_assets_down.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_reactnativeelementdropdown_src_assets_down.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_profile_heart_fill.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_profile_heart_fill.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_profile_agency_register.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_profile_agency_register.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_flyerhq_reactnativechatui_lib_assets_iconattachment.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_flyerhq_reactnativechatui_lib_assets_iconattachment.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xhdpi_node_modules_flyerhq_reactnativechatui_lib_assets_iconsend.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xhdpi/node_modules_flyerhq_reactnativechatui_lib_assets_iconsend.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_profile_ctv_register.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_profile_ctv_register.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_profile_location.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_profile_location.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_reactnativeratings_dist_images_star.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_reactnativeratings_dist_images_star.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_reactnativeratings_dist_images_bell.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_reactnativeratings_dist_images_bell.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xhdpi_node_modules_flyerhq_reactnativechatui_lib_assets_icondelivered.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xhdpi/node_modules_flyerhq_reactnativechatui_lib_assets_icondelivered.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xxhdpi_node_modules_flyerhq_reactnativechatui_lib_assets_iconerror.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xxhdpi/node_modules_flyerhq_reactnativechatui_lib_assets_iconerror.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstar.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstar.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_flyerhq_reactnativechatui_lib_assets_icondocument.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_flyerhq_reactnativechatui_lib_assets_icondocument.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_logo.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_logo.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xhdpi_node_modules_flyerhq_reactnativechatui_lib_assets_iconattachment.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xhdpi/node_modules_flyerhq_reactnativechatui_lib_assets_iconattachment.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_flyerhq_reactnativechatui_lib_assets_iconerror.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_flyerhq_reactnativechatui_lib_assets_iconerror.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_code_ctv.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_code_ctv.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xxhdpi_node_modules_flyerhq_reactnativechatui_lib_assets_icondelivered.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xxhdpi/node_modules_flyerhq_reactnativechatui_lib_assets_icondelivered.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_profile_buy_again.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_profile_buy_again.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_card_profile.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_card_profile.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_reactnativeratings_dist_images_rocket.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_reactnativeratings_dist_images_rocket.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xxhdpi_node_modules_flyerhq_reactnativechatui_lib_assets_icondocument.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xxhdpi/node_modules_flyerhq_reactnativechatui_lib_assets_icondocument.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_assets_images_profile_web.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/assets_images_profile_web.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_reactnativeelementdropdown_src_assets_close.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_reactnativeelementdropdown_src_assets_close.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_reactnativeratings_dist_images_heart.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_reactnativeratings_dist_images_heart.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-mdpi_node_modules_flyerhq_reactnativechatui_lib_assets_icondelivered.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-mdpi/node_modules_flyerhq_reactnativechatui_lib_assets_icondelivered.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable-xhdpi_node_modules_flyerhq_reactnativechatui_lib_assets_icondocument.png.flat",
+        "source": "com.doapp.store.vilong.app-res-33:/drawable-xhdpi/node_modules_flyerhq_reactnativechatui_lib_assets_icondocument.png"
+    },
+    {
+        "merged": "com.doapp.store.vilong.app-merged_res-40:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.doapp.store.vilong.app-main-41:/drawable/rn_edit_text_material.xml"
+    }
+]

@@ -1,0 +1,441 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.doapp.store.vilong"
+4    android:versionCode="10"
+5    android:versionName="1.0.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:3:6-68
+11-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:3:23-65
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:4:5-81
+12-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:4:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:5:5-80
+13-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:5:22-77
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:6:5-65
+14-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[:react-native-firebase_dynamic-links] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-68
+15-->[:react-native-firebase_dynamic-links] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-65
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:react-native-firebase_dynamic-links] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+16-->[:react-native-firebase_dynamic-links] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/dynamic-links/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:23:5-77
+17-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:23:22-74
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:26:22-79
+19
+20    <application
+20-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:8:5-27:19
+21        android:name="com.doapp.store.vilong.MainApplication"
+21-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:9:7-38
+22        android:allowBackup="false"
+22-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:13:7-34
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.8.0] /Users/nghia/.gradle/caches/transforms-3/f91bddac5c5a1ea6f3ed77efc5a301a8/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:11:7-41
+25        android:label="@string/app_name"
+25-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:10:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:12:7-52
+27        android:theme="@style/AppTheme" >
+27-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:14:7-38
+28        <activity
+28-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:15:7-26:18
+29            android:name="com.doapp.store.vilong.MainActivity"
+29-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:16:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+30-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:18:9-118
+31            android:exported="true"
+31-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:21:9-32
+32            android:label="@string/app_name"
+32-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:17:9-41
+33            android:launchMode="singleTask"
+33-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:19:9-40
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:20:9-51
+35            <intent-filter>
+35-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:22:9-25:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:23:13-65
+36-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:23:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:24:13-73
+38-->/Users/nghia/Documents/code/com.doapp.store.vilong/android/app/src/main/AndroidManifest.xml:24:23-70
+39            </intent-filter>
+40        </activity>
+41
+42        <service
+42-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:40
+43            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+43-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-103
+44            android:exported="false" />
+44-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+45        <service
+45-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-21:19
+46            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+46-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-95
+47            android:exported="false" >
+47-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-37
+48            <intent-filter>
+48-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:29
+49                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+49-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-78
+49-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:25-75
+50            </intent-filter>
+51        </service>
+52
+53        <receiver
+53-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-30:20
+54            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+54-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-96
+55            android:exported="true"
+55-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-36
+56            android:permission="com.google.android.c2dm.permission.SEND" >
+56-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-73
+57            <intent-filter>
+57-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-29:29
+58                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+58-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-81
+58-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-78
+59            </intent-filter>
+60        </receiver>
+61
+62        <meta-data
+62-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:32:9-34:36
+63            android:name="firebase_messaging_auto_init_enabled"
+63-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-64
+64            android:value="true" />
+64-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:13-33
+65        <meta-data
+65-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:9-37:32
+66            android:name="com.google.firebase.messaging.default_notification_channel_id"
+66-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-89
+67            android:value="" />
+67-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-29
+68        <meta-data
+68-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:9-40:47
+69            android:name="com.google.firebase.messaging.default_notification_color"
+69-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-84
+70            android:resource="@color/white" />
+70-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-44
+71        <meta-data
+71-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:9-11:36
+72            android:name="app_data_collection_default_enabled"
+72-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-63
+73            android:value="true" />
+73-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-33
+74
+75        <service
+75-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-21:19
+76            android:name="com.google.firebase.components.ComponentDiscoveryService"
+76-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-84
+77            android:directBootAware="true"
+77-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-43
+78            android:exported="false" >
+78-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+79            <meta-data
+79-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:85
+80                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+80-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-120
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:57:13-59:85
+83                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+83-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:58:17-122
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:59:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:60:13-62:85
+86                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+86-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:61:17-119
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:62:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-dynamic-links:21.2.0] /Users/nghia/.gradle/caches/transforms-3/c155fd071d3956e27ef2d9e4c64f3212/transformed/jetified-firebase-dynamic-links-21.2.0/AndroidManifest.xml:24:13-26:85
+89                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.FirebaseDynamicLinksKtxRegistrar"
+89-->[com.google.firebase:firebase-dynamic-links:21.2.0] /Users/nghia/.gradle/caches/transforms-3/c155fd071d3956e27ef2d9e4c64f3212/transformed/jetified-firebase-dynamic-links-21.2.0/AndroidManifest.xml:25:17-128
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-dynamic-links:21.2.0] /Users/nghia/.gradle/caches/transforms-3/c155fd071d3956e27ef2d9e4c64f3212/transformed/jetified-firebase-dynamic-links-21.2.0/AndroidManifest.xml:26:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-dynamic-links:21.2.0] /Users/nghia/.gradle/caches/transforms-3/c155fd071d3956e27ef2d9e4c64f3212/transformed/jetified-firebase-dynamic-links-21.2.0/AndroidManifest.xml:27:13-29:85
+92                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+92-->[com.google.firebase:firebase-dynamic-links:21.2.0] /Users/nghia/.gradle/caches/transforms-3/c155fd071d3956e27ef2d9e4c64f3212/transformed/jetified-firebase-dynamic-links-21.2.0/AndroidManifest.xml:28:17-133
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-dynamic-links:21.2.0] /Users/nghia/.gradle/caches/transforms-3/c155fd071d3956e27ef2d9e4c64f3212/transformed/jetified-firebase-dynamic-links-21.2.0/AndroidManifest.xml:29:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-installations:17.2.0] /Users/nghia/.gradle/caches/transforms-3/818bc5a1eac6d8ab9505505399cbae8e/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+95                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+95-->[com.google.firebase:firebase-installations:17.2.0] /Users/nghia/.gradle/caches/transforms-3/818bc5a1eac6d8ab9505505399cbae8e/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-installations:17.2.0] /Users/nghia/.gradle/caches/transforms-3/818bc5a1eac6d8ab9505505399cbae8e/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-installations:17.2.0] /Users/nghia/.gradle/caches/transforms-3/818bc5a1eac6d8ab9505505399cbae8e/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+98                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+98-->[com.google.firebase:firebase-installations:17.2.0] /Users/nghia/.gradle/caches/transforms-3/818bc5a1eac6d8ab9505505399cbae8e/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-installations:17.2.0] /Users/nghia/.gradle/caches/transforms-3/818bc5a1eac6d8ab9505505399cbae8e/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/nghia/.gradle/caches/transforms-3/75674215fde5ca8f919c2418ed88ca0a/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+101                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+101-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/nghia/.gradle/caches/transforms-3/75674215fde5ca8f919c2418ed88ca0a/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/nghia/.gradle/caches/transforms-3/75674215fde5ca8f919c2418ed88ca0a/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-common:20.4.2] /Users/nghia/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+104                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+104-->[com.google.firebase:firebase-common:20.4.2] /Users/nghia/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-common:20.4.2] /Users/nghia/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/nghia/.gradle/caches/transforms-3/cff7a67ccafede266af2711d57aba36b/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+107                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+107-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/nghia/.gradle/caches/transforms-3/cff7a67ccafede266af2711d57aba36b/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/nghia/.gradle/caches/transforms-3/cff7a67ccafede266af2711d57aba36b/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+109        </service>
+110
+111        <provider
+111-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-27:38
+112            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+112-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-88
+113            android:authorities="com.doapp.store.vilong.reactnativefirebaseappinitprovider"
+113-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-86
+114            android:exported="false"
+114-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-37
+115            android:initOrder="99" />
+115-->[:react-native-firebase_app] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-35
+116
+117        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+117-->[:react-native-code-push] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-86
+117-->[:react-native-code-push] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:19-83
+118
+119        <provider
+119-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+120            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+120-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-75
+121            android:authorities="com.doapp.store.vilong.provider"
+121-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-60
+122            android:exported="false"
+122-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+123            android:grantUriPermissions="true" >
+123-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+124            <meta-data
+124-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:70
+125                android:name="android.support.FILE_PROVIDER_PATHS"
+125-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-67
+126                android:resource="@xml/file_viewer_provider_paths" />
+126-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-67
+127        </provider>
+128        <provider
+128-->[:react-native-image-picker] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+129            android:name="com.imagepicker.ImagePickerProvider"
+129-->[:react-native-image-picker] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-63
+130            android:authorities="com.doapp.store.vilong.imagepickerprovider"
+130-->[:react-native-image-picker] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-71
+131            android:exported="false"
+131-->[:react-native-image-picker] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+132            android:grantUriPermissions="true" >
+132-->[:react-native-image-picker] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+133            <meta-data
+133-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:70
+134                android:name="android.support.FILE_PROVIDER_PATHS"
+134-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-67
+135                android:resource="@xml/imagepicker_provider_paths" />
+135-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-67
+136        </provider>
+137        <provider
+137-->[:react-native-share] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+138            android:name="cl.json.RNShareFileProvider"
+138-->[:react-native-share] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-55
+139            android:authorities="com.doapp.store.vilong.rnshare.fileprovider"
+139-->[:react-native-share] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-72
+140            android:exported="false"
+140-->[:react-native-share] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+141            android:grantUriPermissions="true" >
+141-->[:react-native-share] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+142            <meta-data
+142-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:70
+143                android:name="android.support.FILE_PROVIDER_PATHS"
+143-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-67
+144                android:resource="@xml/share_download_paths" />
+144-->[:react-native-file-viewer] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/react-native-file-viewer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-67
+145        </provider>
+146
+147        <activity
+147-->[com.google.android.gms:play-services-auth:20.7.0] /Users/nghia/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+148            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+148-->[com.google.android.gms:play-services-auth:20.7.0] /Users/nghia/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+149            android:excludeFromRecents="true"
+149-->[com.google.android.gms:play-services-auth:20.7.0] /Users/nghia/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-auth:20.7.0] /Users/nghia/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-auth:20.7.0] /Users/nghia/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+152        <!--
+153            Service handling Google Sign-In user revocation. For apps that do not integrate with
+154            Google Sign-In, this service will never be started.
+155        -->
+156        <service
+156-->[com.google.android.gms:play-services-auth:20.7.0] /Users/nghia/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+157            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+157-->[com.google.android.gms:play-services-auth:20.7.0] /Users/nghia/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+158            android:exported="true"
+158-->[com.google.android.gms:play-services-auth:20.7.0] /Users/nghia/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+159            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+159-->[com.google.android.gms:play-services-auth:20.7.0] /Users/nghia/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+160            android:visibleToInstantApps="true" />
+160-->[com.google.android.gms:play-services-auth:20.7.0] /Users/nghia/.gradle/caches/transforms-3/0da3cdb9584e89dc47782341d0fe303c/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+161
+162        <meta-data
+162-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/nghia/.gradle/caches/transforms-3/5e708819ac880b6b35932614653cfc03/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+163            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+163-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/nghia/.gradle/caches/transforms-3/5e708819ac880b6b35932614653cfc03/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+164            android:value="GlideModule" />
+164-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/nghia/.gradle/caches/transforms-3/5e708819ac880b6b35932614653cfc03/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+165
+166        <receiver
+166-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:29:9-40:20
+167            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+167-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:30:13-78
+168            android:exported="true"
+168-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:31:13-36
+169            android:permission="com.google.android.c2dm.permission.SEND" >
+169-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:32:13-73
+170            <intent-filter>
+170-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-29:29
+171                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+171-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-81
+171-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-78
+172            </intent-filter>
+173
+174            <meta-data
+174-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:37:13-39:40
+175                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+175-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:38:17-92
+176                android:value="true" />
+176-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:39:17-37
+177        </receiver>
+178        <!--
+179             FirebaseMessagingService performs security checks at runtime,
+180             but set to not exported to explicitly avoid allowing another app to call it.
+181        -->
+182        <service
+182-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:46:9-53:19
+183            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+183-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:47:13-82
+184            android:directBootAware="true"
+184-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:48:13-43
+185            android:exported="false" >
+185-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nghia/.gradle/caches/transforms-3/74fdd10bbadbbf4241ac03a51b2566d4/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:49:13-37
+186            <intent-filter android:priority="-500" >
+186-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:29
+187                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+187-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-78
+187-->[:react-native-firebase_messaging] /Users/nghia/Documents/code/com.doapp.store.vilong/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:25-75
+188            </intent-filter>
+189        </service>
+190
+191        <activity
+191-->[com.google.android.gms:play-services-base:18.0.1] /Users/nghia/.gradle/caches/transforms-3/7bc77237716ecf9e1a931527d9b3ecd9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+192            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+192-->[com.google.android.gms:play-services-base:18.0.1] /Users/nghia/.gradle/caches/transforms-3/7bc77237716ecf9e1a931527d9b3ecd9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+193            android:exported="false"
+193-->[com.google.android.gms:play-services-base:18.0.1] /Users/nghia/.gradle/caches/transforms-3/7bc77237716ecf9e1a931527d9b3ecd9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+194            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+194-->[com.google.android.gms:play-services-base:18.0.1] /Users/nghia/.gradle/caches/transforms-3/7bc77237716ecf9e1a931527d9b3ecd9/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+195
+196        <provider
+196-->[com.google.firebase:firebase-common:20.4.2] /Users/nghia/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+197            android:name="com.google.firebase.provider.FirebaseInitProvider"
+197-->[com.google.firebase:firebase-common:20.4.2] /Users/nghia/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+198            android:authorities="com.doapp.store.vilong.firebaseinitprovider"
+198-->[com.google.firebase:firebase-common:20.4.2] /Users/nghia/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+199            android:directBootAware="true"
+199-->[com.google.firebase:firebase-common:20.4.2] /Users/nghia/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+200            android:exported="false"
+200-->[com.google.firebase:firebase-common:20.4.2] /Users/nghia/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+201            android:initOrder="100" />
+201-->[com.google.firebase:firebase-common:20.4.2] /Users/nghia/.gradle/caches/transforms-3/03f67cfbcf95f87693a92c0410f9793e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+202
+203        <meta-data
+203-->[com.google.android.gms:play-services-basement:18.2.0] /Users/nghia/.gradle/caches/transforms-3/6ea5954c9161efc9a3dde92daf120e53/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+204            android:name="com.google.android.gms.version"
+204-->[com.google.android.gms:play-services-basement:18.2.0] /Users/nghia/.gradle/caches/transforms-3/6ea5954c9161efc9a3dde92daf120e53/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+205            android:value="@integer/google_play_services_version" />
+205-->[com.google.android.gms:play-services-basement:18.2.0] /Users/nghia/.gradle/caches/transforms-3/6ea5954c9161efc9a3dde92daf120e53/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+206
+207        <provider
+207-->[androidx.emoji2:emoji2:1.0.0] /Users/nghia/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+208            android:name="androidx.startup.InitializationProvider"
+208-->[androidx.emoji2:emoji2:1.0.0] /Users/nghia/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+209            android:authorities="com.doapp.store.vilong.androidx-startup"
+209-->[androidx.emoji2:emoji2:1.0.0] /Users/nghia/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+210            android:exported="false" >
+210-->[androidx.emoji2:emoji2:1.0.0] /Users/nghia/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+211            <meta-data
+211-->[androidx.emoji2:emoji2:1.0.0] /Users/nghia/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+212                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+212-->[androidx.emoji2:emoji2:1.0.0] /Users/nghia/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+213                android:value="androidx.startup" />
+213-->[androidx.emoji2:emoji2:1.0.0] /Users/nghia/.gradle/caches/transforms-3/1dc5a53331c396c6b9547634dd6dea73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+214            <meta-data
+214-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nghia/.gradle/caches/transforms-3/741ed8285e530c428432a9e6620a329e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+215                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+215-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nghia/.gradle/caches/transforms-3/741ed8285e530c428432a9e6620a329e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+216                android:value="androidx.startup" />
+216-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nghia/.gradle/caches/transforms-3/741ed8285e530c428432a9e6620a329e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+217        </provider>
+218
+219        <meta-data
+219-->[com.facebook.soloader:soloader:0.10.5] /Users/nghia/.gradle/caches/transforms-3/2add1735ebfa5047b843e99834f8ccf7/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+220            android:name="com.facebook.soloader.enabled"
+220-->[com.facebook.soloader:soloader:0.10.5] /Users/nghia/.gradle/caches/transforms-3/2add1735ebfa5047b843e99834f8ccf7/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+221            android:value="false" />
+221-->[com.facebook.soloader:soloader:0.10.5] /Users/nghia/.gradle/caches/transforms-3/2add1735ebfa5047b843e99834f8ccf7/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+222
+223        <service
+223-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/nghia/.gradle/caches/transforms-3/ab252314d195d09aa24fb4c1cf22f56e/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+224            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+224-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/nghia/.gradle/caches/transforms-3/ab252314d195d09aa24fb4c1cf22f56e/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+225            android:exported="false" >
+225-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/nghia/.gradle/caches/transforms-3/ab252314d195d09aa24fb4c1cf22f56e/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+226            <meta-data
+226-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/nghia/.gradle/caches/transforms-3/ab252314d195d09aa24fb4c1cf22f56e/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+227                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+227-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/nghia/.gradle/caches/transforms-3/ab252314d195d09aa24fb4c1cf22f56e/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+228                android:value="cct" />
+228-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/nghia/.gradle/caches/transforms-3/ab252314d195d09aa24fb4c1cf22f56e/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+229        </service>
+230        <service
+230-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nghia/.gradle/caches/transforms-3/950ba2b47f988011130e212c52fbeb44/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+231            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+231-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nghia/.gradle/caches/transforms-3/950ba2b47f988011130e212c52fbeb44/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+232            android:exported="false"
+232-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nghia/.gradle/caches/transforms-3/950ba2b47f988011130e212c52fbeb44/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+233            android:permission="android.permission.BIND_JOB_SERVICE" >
+233-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nghia/.gradle/caches/transforms-3/950ba2b47f988011130e212c52fbeb44/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+234        </service>
+235
+236        <receiver
+236-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nghia/.gradle/caches/transforms-3/950ba2b47f988011130e212c52fbeb44/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+237            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+237-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nghia/.gradle/caches/transforms-3/950ba2b47f988011130e212c52fbeb44/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+238            android:exported="false" />
+238-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nghia/.gradle/caches/transforms-3/950ba2b47f988011130e212c52fbeb44/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+239    </application>
+240
+241</manifest>
